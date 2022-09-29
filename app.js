@@ -21,7 +21,7 @@ app.get('/me', (request , response) => {
        
     });
     app.patch('/metas', (req, res) => {
-        res.status(200).json({message:{ metas: ['viejas a Alemania', 'Emepezar a trabajar como programador' ]},
+        res.status(200).json({message:{ metas: ['Aprender TypeScript', 'Emepezar a trabajar como programador' ]},
         verb: 'PATCH'})
     });
 
